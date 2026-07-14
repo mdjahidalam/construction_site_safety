@@ -1,0 +1,21 @@
+# Virtual Environment
+yenv/
+
+# Python
+__pycache__/
+*.pyc
+
+# YOLO Output
+runs/
+outputs/
+temp/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db

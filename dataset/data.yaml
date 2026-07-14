@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 24
+names: ['Excavator', 'Gloves', 'Hardhat', 'Ladder', 'Mask', 'NO-Hardhat', 'NO-Mask', 'NO-Safety Vest', 'Person', 'SUV', 'Safety Cone', 'Safety Vest', 'dump truck', 'fire hydrant', 'machinery', 'mini-van', 'sedan', 'semi', 'trailer', 'truck', 'truck and trailer', 'van', 'vehicle', 'wheel loader']
+
+roboflow:
+  workspace: safety-helmet-apd
+  project: construction-site-safety-w0dlf
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/safety-helmet-apd/construction-site-safety-w0dlf/dataset/1
