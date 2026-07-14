@@ -1,21 +1,16 @@
-# Virtual Environment
 yenv/
-
-# Python
 __pycache__/
 *.pyc
 
-# YOLO Output
 runs/
-outputs/
 temp/
+dataset/
+images/
+videos/
 
-# Jupyter
-.ipynb_checkpoints/
+.git
+.vscode
+.idea
 
-# VS Code
-.vscode/
-
-# OS Files
-.DS_Store
-Thumbs.db
+*.avi
+*.mp4
